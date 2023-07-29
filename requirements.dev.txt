@@ -1,0 +1,5 @@
+autoflake
+setuptools
+pydantic
+black
+isort
