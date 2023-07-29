@@ -9,6 +9,6 @@ class UserInfo(Base):
     value: str | None = None
 
 
-class UserInfoUpdate(Base):
+class UserLogin(Base):
     items: list[UserInfo]
     source: constr(min_length=1)
