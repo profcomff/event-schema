@@ -4,7 +4,7 @@ from event_schema.base import Base
 
 
 class UserInfo(Base):
-    category: str
+    category: str | None = None
     param: str
     value: str | None = None
 
